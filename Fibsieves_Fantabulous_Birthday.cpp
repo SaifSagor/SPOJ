@@ -16,7 +16,7 @@ int main(){
 	while(t--){
 		cin >> s;
 		root = ceil(sqrt(s));
-		l = pow(root,2.0)-s;
+		l = (root*root)-s;
 
 		if(l < root){
 			r = root;
